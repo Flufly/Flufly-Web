@@ -1,0 +1,23 @@
+body{
+  background: url('../img/Clouds.jpg');
+  background-size: cover;
+}
+
+img{
+  margin-top: 0px;
+  margin-left: 20px;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+.round{
+  border-radius: 8px;
+}
+.test{
+  text-align: left;
+}
+.jumbotron{
+  border-radius: 8px;
+  text-align: center;
+}
