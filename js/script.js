@@ -57,7 +57,7 @@ $(document).ready(function(){
             </div>
             <div class="col badge ">
             <button type="button" class="round btn btn-info">Notify me !</button><br><br>
-            <p>data coming soon</p>
+            <p>updates coming soon</p>
             </div>
           </div>
         </div> <!-- Coin with Index 0 -->
