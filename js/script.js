@@ -38,23 +38,24 @@ $(document).ready(function(){
       $('#coins').append(`
         <div class="round alert  alert-secondary"> <!-- Div Start for Coin -->
           <div class="row">
-            <div class="col-md-2">
+            <div class="col">
               <img src="img/coin${coin.rank}.png" class="float-left">
             </div>
-            <div class="col-md-2">
+            <div class="col">
               <h4 class="text-info">${coin.symbol}</h4><br>${coin.symbol}&nbsp;|&nbsp;${coin.name}
               </div>
-            <div class="col-md-2">
+            <div class="col">
               <div class="col">
                 <span class="test badge badge-secondary btn-block">1h &nbsp; : &nbsp;<span id="value1H${coin.rank}"> ${coin.percent_change_1h}</span></span><br>
                 <span class="test badge badge-secondary btn-block">24h : &nbsp; <span id="value24H${coin.rank}"> ${coin.percent_change_24h}</span></span><br>
                 <span class="test badge badge-secondary btn-block">7d &nbsp; : &nbsp; <span id="value7D${coin.rank}"> ${coin.percent_change_7d}</span></span><br>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col"><center>
               <h1><span class="inline-block text-dark">$&nbsp;${coin.price_usd}</span></h1>
+              </center>
             </div>
-            <div class="col-md-3 badge ">
+            <div class="col badge ">
             <button type="button" class="round btn btn-info">Notify me !</button><br><br>
             <p>data coming soon</p>
             </div>
